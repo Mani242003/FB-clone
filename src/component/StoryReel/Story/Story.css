@@ -1,0 +1,29 @@
+.story{
+    position: relative;
+    background-position: center center;
+    width: 120px;
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    border-radius: 10px;
+    margin-right: 20px;
+    transition: transform 200ms ease-in;
+}
+
+.story:hover{
+    transform: scale(1.07);
+}
+.story_avater{
+    border: 5px solid #2e81f4;
+    position: absolute;
+    left: 30px;
+    top: 100px;
+}
+
+.story h4{
+    position: absolute;
+    bottom: 20px;
+    font-size: 15px;
+    color:white;
+    left: 5px;
+}

@@ -1,0 +1,71 @@
+.postUploder{
+    display: flex;
+    margin-top: 30px;
+    flex-direction: column;
+    background-color: white;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    width: 100%;
+}
+.postUploder__top{
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    border-bottom: 1px silver solid;
+}
+.postUploder__top  form{
+    display: flex;
+    flex: 1;
+
+}
+.postUploder__top input {
+    border: none;
+    outline: none;
+    padding: 10px 15px;
+    border-radius: 999px;
+    flex: 1;
+    background-color: #eff2f5;
+    margin: 0 8px;
+    font-size: 18px;
+
+
+}
+.UploadButton{
+    margin-top: 8px;
+    width: 60px;
+    height: 40px;
+    border-radius: 10px;
+    outline: none;
+    border: none;
+    border: 1px solid lightgreen;
+    cursor: pointer;
+        
+}
+.UploadButton .MuiSvgIcon-root{
+    color: #007E00;
+    
+}
+
+.postUploder__bottom{
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-evenly;
+}
+.postUploder__option{
+    display: flex;
+    padding: 20px;
+    margin: 5px;
+    color: gray;
+    align-items: center;
+}
+.postUploder__option:hover{
+    border-radius: 20px;
+    background-color: #eff2f5;
+    cursor: pointer;
+}
+.postUploder__option h3{
+    font-size: medium;
+    margin-left: 8px;
+    cursor: pointer;
+}
